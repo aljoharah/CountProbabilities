@@ -1,0 +1,102 @@
+S -> S BASE
+S -> TATA5 BASE
+P2 -> TTGACA5 A15 
+P2 -> TTGACA5 A16 
+P2 -> TTGACA5 A17
+P2 -> TTGACA5 A18
+P2 -> TTGACA5 A19
+TATA0 -> P2 BT6
+TATA1 -> TATA0 BA7
+TATA2 -> TATA1 BT8
+TATA3 -> TATA2 BA9
+TATA4 -> TATA3 BA10
+TATA5 -> TATA4 BT11
+TTGACA0 -> F14 BT0
+TTGACA1 -> TTGACA0 BT1
+TTGACA2 -> TTGACA1 BG2
+TTGACA3 -> TTGACA2 BA3
+TTGACA4 -> TTGACA3 BC4
+TTGACA5 -> TTGACA4 BA5
+A19 -> A18 BASE
+A18 -> A17 BASE
+A17 -> A16 BASE
+A16 -> A15 BASE
+A15 -> A14 BASE 
+A14 -> A13 BASE 
+A13 -> A12 BASE
+A12 -> A11 BASE 
+A11 -> A10 BASE 
+A10 -> A9 BASE
+A9 -> A8 BASE
+A8 -> A7 BASE
+A7 -> A6 BASE
+A6 -> A5 BASE
+A5 -> A4 BASE
+A4 -> A3 BASE
+A3 -> A2 BASE
+A2 -> BASE BASE
+F14 -> F13 BASE
+F13 -> F12 BASE
+F12 -> F11 BASE
+F11 -> F10 BASE
+F10 -> F9 BASE
+F9 -> F8 BASE
+F8 -> F7 BASE
+F7 -> F6 BASE
+F6 -> F5 BASE
+F5 -> F4 BASE
+F4 -> F3 BASE
+F3 -> F2 BASE
+F2 -> BASE BASE
+BASE -> a
+BASE -> t
+BASE -> g
+BASE -> c
+BT0 -> t
+BT0 -> g
+BT0 -> c
+BT0 -> a
+BT1 -> t
+BT1 -> g
+BT1 -> c
+BT1 -> a
+BG2 -> t
+BG2 -> g
+BG2 -> c
+BG2 -> a
+BA3 -> t
+BA3 -> g
+BA3 -> c
+BA3 -> a
+BC4 -> t
+BC4 -> g
+BC4 -> c
+BC4 -> a
+BA5 -> t
+BA5 -> g
+BA5 -> c
+BA5 -> a
+BT6 -> t
+BT6 -> g
+BT6 -> c
+BT6 -> a
+BA7 -> t
+BA7 -> g
+BA7 -> c
+BA7 -> a
+BT8 -> t
+BT8 -> g
+BT8 -> c
+BT8 -> a
+BA9 -> t
+BA9 -> g
+BA9 -> c
+BA9 -> a
+BA10 -> t
+BA10 -> g
+BA10 -> c
+BA10 -> a
+BT11 -> t
+BT11 -> g
+BT11 -> c
+BT11 -> a
